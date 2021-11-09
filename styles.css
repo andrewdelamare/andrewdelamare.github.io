@@ -1,10 +1,17 @@
-a{
-    color: #8ea8c3ff;
-    text-decoration: none;
+a:link{
+    color: #f0cf57;
+    text-decoration: none; 
+}
+a:hover{
+    color: #406e8eff;
+}
+a:visited{
+    color: #f0cf57;
 }
 body{
     background-color:#23395bff;
-    display: block;    
+    display: block; 
+    margin: 20px 60px;   
 }
 h1{
     Font-Family: 'Work Sans', Sans-Serif;
@@ -47,12 +54,13 @@ p{
     justify-content: space-between;
 }
 .navigation-items{
-    color:#cbf7edff;
+    
     padding-top: 58px;
     padding-right: 50px;
 }
 
 .navigation-item{
+    
     display: inline;
     Font-Family: 'Work Sans', Sans-Serif;
     Font-Size: 35px;
@@ -84,6 +92,7 @@ CSS HEX
 --queen-blue: #406e8eff;
 --cadet-grey: #8ea8c3ff;
 --light-cyan: #cbf7edff;
+-- LINK COLOR: #f0cf57;
 
 CSS HSL 
 --rich-black-fogra-29: hsla(228, 25%, 12%, 1);
@@ -91,5 +100,7 @@ CSS HSL
 --queen-blue: hsla(205, 38%, 40%, 1);
 --cadet-grey: hsla(211, 31%, 66%, 1);
 --light-cyan: hsla(166, 73%, 88%, 1);
+
+add margins (10-30px)
 
 */
