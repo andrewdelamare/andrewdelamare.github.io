@@ -1,45 +1,71 @@
-a{}
+a{
+    color: #8ea8c3ff;
+    text-decoration: none;
+}
 body{
+    background-color:#23395bff;
     display: block;    
 }
 h1{
     Font-Family: 'Work Sans', Sans-Serif;
-    Font-Size: 45px;
+    Font-Size: 65px;
+    color:#cbf7edff;
 }
 h2{
     Font-Family: 'Work Sans', Sans-Serif;
-    Font-Size: 35px;
+    Font-Size: 45px;
+    color:#cbf7edff;
 }
 main{}
 nav{}
-p{}
+p{
+    color:#cbf7edff;
+}
 
 .about-me-container{}
-.about-me-cycling{}
+.about-me-cycling{
+    Font-Family: 'Open Sans', Sans-Serif;
+    Font-Size: 25px;
+}
 .about-me-head{}
-.about-me-text{}
+.about-me-text{
+    Font-Family: 'Open Sans', Sans-Serif;
+    Font-Size: 25px;
+}
 .contact-container{}
+.contact-link{
+    Font-Family: 'Open Sans', Sans-Serif;
+    Font-Size: 25px;
+}
+.footer-text{
+    Font-Family: 'Open Sans', Sans-Serif;
+    Font-Size: 25px;
+}
 .nav-container{
     display: inline-flex;
     width: 100%;
     justify-content: space-between;
 }
 .navigation-items{
-    padding-top: 35px;
+    color:#cbf7edff;
+    padding-top: 58px;
     padding-right: 50px;
 }
 
 .navigation-item{
     display: inline;
     Font-Family: 'Work Sans', Sans-Serif;
-    Font-Size: 25px;
+    Font-Size: 35px;
     padding-left: 30px;
     float: left;
 }
 
 .tech-container{}
 .tech-head{}
-.tech-text{}
+.tech-text{
+    Font-Family: 'Open Sans', Sans-Serif;
+    Font-Size: 25px;
+}
 
 
 /* Fonts 
