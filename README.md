@@ -13,6 +13,10 @@ When this project is complete the user will be able to view and interact with a 
 
 The website will include some basic information about me, my interests and my skills.
 
+In the future the site will be updated with other completed projects in order to showcase them.
+
+Upon completion this project will overwrite the andrewdelamare.github.io page and be linked to from my bio. 
+
 ---
 ## Technologies
 - HTML 
@@ -20,7 +24,7 @@ The website will include some basic information about me, my interests and my sk
 - JavaScript 
 ---
 ## Setup 
-In order to view this project you will need to... (TBD)
+In order to view this project you will need to go to (link tbd...)
 
 ---
 ## Status 
