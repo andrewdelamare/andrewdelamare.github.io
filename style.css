@@ -1,0 +1,44 @@
+body{}
+h1{}
+h2{}
+main{}
+nav{}
+p{}
+
+.about-me-container{}
+.about-me-cycling{}
+.about-me-head{}
+.about-me-text{}
+.contact-container{}
+.navigation-items{}
+.navigation-item{}
+.tech-container{}
+.tech-head{}
+.tech-text{}
+
+
+/* Fonts 
+
+Font-Family: 'Work Sans', Sans-Serif;
+Font-Size: 45px;
+Font-Family: 'Open Sans', Sans-Serif;
+Font-Size: 15px;
+
+*/
+/* Colors 
+
+CSS HEX 
+--rich-black-fogra-29: #161925ff;
+--prussian-blue: #23395bff;
+--queen-blue: #406e8eff;
+--cadet-grey: #8ea8c3ff;
+--light-cyan: #cbf7edff;
+
+CSS HSL 
+--rich-black-fogra-29: hsla(228, 25%, 12%, 1);
+--prussian-blue: hsla(216, 44%, 25%, 1);
+--queen-blue: hsla(205, 38%, 40%, 1);
+--cadet-grey: hsla(211, 31%, 66%, 1);
+--light-cyan: hsla(166, 73%, 88%, 1);
+
+*/
