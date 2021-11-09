@@ -16,13 +16,17 @@ h1{
     Font-Family: 'Work Sans', Sans-Serif;
     Font-Size: 65px;
     color:#cbf7edff;
-    margin-left: 25px;
 }
 h2{
     Font-Family: 'Work Sans', Sans-Serif;
     Font-Size: 45px;
     color:#cbf7edff;
     margin-left: 25px;
+}
+img{
+    display: block;
+    position: relative;
+
 }
 main{}
 nav{}
@@ -34,7 +38,7 @@ p{
 /* classes */
 .about-me-container{
     margin: 20px 0px;
-
+    position: relative;
 }
 .about-me-head{}
 .about-me-text{
@@ -80,16 +84,30 @@ p{
 
 /* ids */
 #abz-img{
-    width: 80%;
+    width: 100%;
     height: auto;
+    z-index: -1;
+}
+#hello-there {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 0;
 }
 #jyv-img{
-    width: 80%;
+    width: 100%;
     height: auto;
+    z-index: -1;
+}
+#rd-img{
+    width: 100%;
+    height: auto;
+    z-index: -1;
 }
 #sf-img{
-    width: 80%;
+    width: 100%;
     height: auto;
+    z-index: -1;
 }
 
 
