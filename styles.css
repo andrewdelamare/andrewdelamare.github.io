@@ -55,6 +55,10 @@ p{
     color: white;
     Font-Family: 'Open Sans', Sans-Serif;
     Font-Size: 40px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 45%;
 }
 .abz-container{
     position: relative;
@@ -135,41 +139,25 @@ p{
     
 }
 #abz-txt{
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    top: 50%;
+    
 }
 #jyv-img{
     filter: brightness (80%);
 }
 #jyv-txt{
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    top: 50%;
+    
 }
 #rd-img{
  
 }
 #rd-txt{
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    top: 50%;
+    
 }
 #sf-img{
 
 }
 #sf-txt{
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    top: 50%;
+   
 }
 /* next steps: 
 - add responsive design to change px offset for picture fade
