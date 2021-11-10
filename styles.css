@@ -71,9 +71,15 @@ p{
     Font-Family: 'Open Sans', Sans-Serif;
     Font-Size: 25px;
 }
+.js-unfade{
+    filter: blur(1px);
+}
+.js-unfade.fade{
+    filter: blur(10px);
+}
 .js-scroll{
     transition: opacity 3000ms;
-    transition-delay: 200ms;
+    transition-delay: 1000ms;
     opacity: 0;
 }
 .js-scroll.scrolled{
@@ -121,7 +127,7 @@ p{
 
 /* ids */
 #abz-img{
-    filter: blur(10px);
+    
 }
 #abz-txt{
     position: absolute;
@@ -131,7 +137,7 @@ p{
     top: 50%;
 }
 #jyv-img{
-    filter: blur(10px) brightness(80%);
+    brightness(80%);
 }
 #jyv-txt{
     position: absolute;
@@ -141,7 +147,7 @@ p{
     top: 50%;
 }
 #rd-img{
-    filter: blur(10px);
+ 
 }
 #rd-txt{
     position: absolute;
@@ -151,7 +157,7 @@ p{
     top: 50%;
 }
 #sf-img{
-    filter: blur(10px);
+    
 }
 #sf-txt{
     position: absolute;

@@ -33,7 +33,23 @@ window.addEventListener('scroll', () => {
     handleScrollAnimation();
   })
 
-//JS Fade
+//JS Unfade
 //Get all js-fade elements on the page
-const fadeElements = document.querySelectorAll(".js-fade") 
-//Assign the scrolled class name to the element if it is in view.
+const fadeElements = document.querySelectorAll(".js-unfade"); 
+//Assign the fade class if js-scroll element in view
+const fadeEl = (element) => {
+    element.classList.add("fade")
+};
+const unfadeEl = (element) => {
+    element.classList.remove("fade")
+};
+
+const handleFadeAnimation = () => {
+    fadeElements.forEach((el) => {
+      if (elementInView = true) {
+          fadeEl(el);
+        } else {
+          unfadeEl(el);
+        }
+    })
+  };
