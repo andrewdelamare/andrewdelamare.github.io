@@ -70,6 +70,13 @@ p{
     Font-Family: 'Open Sans', Sans-Serif;
     Font-Size: 25px;
 }
+.js-scroll{
+    opacity: 0;
+    transition: opacity 500ms;
+}
+.js-scroll.scrolled{
+    opacity: 1;
+}
 .jyv-container{
     position: relative;
 }
