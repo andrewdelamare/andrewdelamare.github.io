@@ -48,6 +48,8 @@ const handleFadeAnimation = () => {
   fadeElements.forEach((el) => {
     if (elementInView(el,800)) {
        FadeElement(el);
+      }else{
+          unFadeElement(el);
       }
   })
 };

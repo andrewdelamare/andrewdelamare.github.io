@@ -168,7 +168,10 @@ p{
     margin: 0;
     top: 50%;
 }
-
+/* next steps: 
+- add responsive design to change px offset for picture fade
+- restyle fee time section 
+- start styling technology section */
 
 /* Fonts 
 
@@ -197,9 +200,9 @@ CSS HSL
 
 
 js & css animations to add
-- on scroll text items fade in 
-- when text items fade in the images blur 
-- when text items are out of view the images slowly become clear 
+- on scroll text items fade in √
+- when text items fade in the images blur √
+- when text items are out of view the images slowly become clear √
 - technology icons also buttons that depress sligthly on hover and fully on click
 
 */
