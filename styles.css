@@ -72,11 +72,12 @@ p{
     Font-Size: 25px;
 }
 .js-unfade{
-    filter: blur(1px);
-    transition: blur 5000ms;
+    opacity: 1;
+    transition-delay: 10000ms;
+    transition: opacity 5000ms;
 }
 .js-unfade.fade{
-    filter: blur(10px);
+    opacity: .3;
 }
 .js-scroll{
     transition: opacity 3000ms;

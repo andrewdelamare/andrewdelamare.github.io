@@ -28,7 +28,6 @@ const handleScrollAnimation = () => {
       }
   })
 };
-
 window.addEventListener('scroll', () => {
     handleScrollAnimation();
   })
@@ -47,8 +46,11 @@ const unFadeElement = (element) => {
 
 const handleFadeAnimation = () => {
   fadeElements.forEach((el) => {
-    if (elementInView(el,100)) {
+    if (elementInView(el,800)) {
        FadeElement(el);
       }
   })
 };
+window.addEventListener('scroll', () => {
+    handleFadeAnimation();
+  })
