@@ -36,6 +36,8 @@ window.addEventListener('scroll', () => {
 //JS Unfade
 //Get all js-fade elements on the page
 const fadeElements = document.querySelectorAll(".js-unfade"); 
+//Observer of elInView
+
 //Assign the fade class if js-scroll element in view
 const fadeEl = (element) => {
     element.classList.add("fade")
@@ -46,7 +48,7 @@ const unfadeEl = (element) => {
 
 const handleFadeAnimation = () => {
     fadeElements.forEach((el) => {
-      if (elementInView = true) {
+      if () {
           fadeEl(el);
         } else {
           unfadeEl(el);
