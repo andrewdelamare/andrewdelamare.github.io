@@ -1,5 +1,5 @@
 a:link{
-    color: #f0cf57;
+    color: #ffd748;
     text-decoration: none; 
 }
 a:hover{
@@ -48,6 +48,7 @@ p{
     z-index: 1;
 }
 .about-me-text{
+    color: white;
     Font-Family: 'Open Sans', Sans-Serif;
     Font-Size: 40px;
 }
@@ -99,6 +100,9 @@ p{
 .sf-container{
     position: relative;
 }
+.spacer{
+    height: 50px;
+}
 .tech-container{}
 .tech-head{}
 .tech-text{
@@ -108,35 +112,44 @@ p{
 
 /* ids */
 #abz-img{
-
+    filter: blur(10px);
 }
 #abz-txt{
-
-}
-#hello-there {
     position: absolute;
     text-align: center;
     width: 100%;
     margin: 0;
-    top: 25%;
+    top: 50%;
 }
 #jyv-img{
-    filter: blur(4px);
+    filter: blur(10px) brightness(80%);
 }
 #jyv-txt{
-
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    top: 50%;
 }
 #rd-img{
-    
+    filter: blur(10px);
 }
 #rd-txt{
-
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    top: 50%;
 }
 #sf-img{
-    
+    filter: blur(10px);
 }
 #sf-txt{
-
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    top: 50%;
 }
 
 
