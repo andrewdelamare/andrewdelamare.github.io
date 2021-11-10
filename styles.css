@@ -73,6 +73,7 @@ p{
 }
 .js-scroll{
     transition: opacity 3000ms;
+    transition-delay: 200ms;
     opacity: 0;
 }
 .js-scroll.scrolled{
