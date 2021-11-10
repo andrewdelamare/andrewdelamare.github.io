@@ -10,7 +10,8 @@ a:visited{
 }
 body{
     background-color:#23395bff;
-    display: block;  
+    display: block; 
+    margin: 0px; 
 }
 h1{
     Font-Family: 'Work Sans', Sans-Serif;
@@ -38,9 +39,13 @@ p{
 /* classes */
 .about-me-container{
     margin: 20px 0px;
+    width: 100%;
+    height: 10%;
     position: relative;
 }
-.about-me-head{}
+.about-me-head{
+    z-index: 1;
+}
 .about-me-text{
     Font-Family: 'Open Sans', Sans-Serif;
     Font-Size: 25px;
@@ -49,6 +54,12 @@ p{
 .contact-link{
     Font-Family: 'Open Sans', Sans-Serif;
     Font-Size: 25px;
+}
+.background-img{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    z-index: -1;
 }
 .footer-text{
     Font-Family: 'Open Sans', Sans-Serif;
@@ -84,9 +95,7 @@ p{
 
 /* ids */
 #abz-img{
-    width: 100%;
-    height: auto;
-    z-index: -1;
+
 }
 #hello-there {
     position: absolute;
@@ -95,19 +104,13 @@ p{
     margin: 0;
 }
 #jyv-img{
-    width: 100%;
-    height: auto;
-    z-index: -1;
+    
 }
 #rd-img{
-    width: 100%;
-    height: auto;
-    z-index: -1;
+    
 }
 #sf-img{
-    width: 100%;
-    height: auto;
-    z-index: -1;
+    
 }
 
 
