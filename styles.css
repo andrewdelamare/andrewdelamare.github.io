@@ -40,15 +40,19 @@ p{
 .about-me-container{
     margin: 20px 0px;
     width: 100%;
-    height: 10%;
-    position: relative;
+    height: auto;
+    overflow: hidden;
+    position: relative; 
 }
 .about-me-head{
     z-index: 1;
 }
 .about-me-text{
     Font-Family: 'Open Sans', Sans-Serif;
-    Font-Size: 25px;
+    Font-Size: 40px;
+}
+.abz-container{
+    position: relative;
 }
 .contact-container{}
 .contact-link{
@@ -65,6 +69,9 @@ p{
     Font-Family: 'Open Sans', Sans-Serif;
     Font-Size: 25px;
 }
+.jyv-container{
+    position: relative;
+}
 .nav-container{
     display: inline-flex;
     justify-content: space-between;
@@ -77,7 +84,6 @@ p{
     padding-top: 58px;
     padding-right: 50px;
 }
-
 .navigation-item{
     
     display: inline;
@@ -85,6 +91,13 @@ p{
     Font-Size: 35px;
     padding-left: 30px;
     float: left;
+}
+.rd-container{
+    position: relative;
+    
+}
+.sf-container{
+    position: relative;
 }
 .tech-container{}
 .tech-head{}
@@ -97,20 +110,33 @@ p{
 #abz-img{
 
 }
+#abz-txt{
+
+}
 #hello-there {
     position: absolute;
     text-align: center;
     width: 100%;
     margin: 0;
+    top: 25%;
 }
 #jyv-img{
-    
+    filter: blur(4px);
+}
+#jyv-txt{
+
 }
 #rd-img{
     
 }
+#rd-txt{
+
+}
 #sf-img{
     
+}
+#sf-txt{
+
 }
 
 
@@ -139,6 +165,11 @@ CSS HSL
 --cadet-grey: hsla(211, 31%, 66%, 1);
 --light-cyan: hsla(166, 73%, 88%, 1);
 
-add margins (10-30px)
+
+js & css animations to add
+- on scroll text items fade in 
+- when text items fade in the images blur 
+- when text items are out of view the images slowly become clear 
+- technology icons also buttons that depress sligthly on hover and fully on click
 
 */
