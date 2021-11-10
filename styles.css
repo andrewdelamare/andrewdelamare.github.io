@@ -12,6 +12,7 @@ body{
     background-color:#23395bff;
     display: block; 
     margin: 0px; 
+
 }
 h1{
     Font-Family: 'Work Sans', Sans-Serif;
@@ -71,8 +72,8 @@ p{
     Font-Size: 25px;
 }
 .js-scroll{
+    transition: opacity 3000ms;
     opacity: 0;
-    transition: opacity 500ms;
 }
 .js-scroll.scrolled{
     opacity: 1;
