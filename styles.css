@@ -12,7 +12,10 @@ body{
     background-color:#23395bff;
     display: block; 
     margin: 0px; 
-
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
 }
 h1{
     Font-Family: 'Work Sans', Sans-Serif;
@@ -73,15 +76,15 @@ p{
 }
 .js-unfade{
     opacity: 1;
-    transition-delay: 10000ms;
-    transition: opacity 5000ms;
+    transition-delay: 3000ms;
+    transition: opacity 3000ms;
 }
 .js-unfade.fade{
     opacity: .3;
 }
 .js-scroll{
-    transition: opacity 3000ms;
-    transition-delay: 1000ms;
+    transition: opacity 1000ms;
+    transition-delay: 500ms;
     opacity: 0;
 }
 .js-scroll.scrolled{
