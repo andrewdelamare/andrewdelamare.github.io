@@ -73,6 +73,7 @@ p{
 }
 .js-unfade{
     filter: blur(1px);
+    transition: blur 5000ms;
 }
 .js-unfade.fade{
     filter: blur(10px);
@@ -137,7 +138,7 @@ p{
     top: 50%;
 }
 #jyv-img{
-    brightness(80%);
+    filter: brightness (80%);
 }
 #jyv-txt{
     position: absolute;
@@ -157,7 +158,7 @@ p{
     top: 50%;
 }
 #sf-img{
-    
+
 }
 #sf-txt{
     position: absolute;
