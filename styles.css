@@ -17,6 +17,10 @@ body{
     height: 100%;
     overflow-x: hidden;
 }
+footer{
+    width: 95%;
+
+}
 h1{
     Font-Family: 'Work Sans', Sans-Serif;
     Font-Size: 65px;
@@ -77,6 +81,10 @@ p{
 .footer-text{
     Font-Family: 'Open Sans', Sans-Serif;
     Font-Size: 25px;
+}
+.icon-link{
+    Font-Family: 'Open Sans', Sans-Serif;
+    Font-Size: 10px;
 }
 .js-unfade{
     opacity: 1;
