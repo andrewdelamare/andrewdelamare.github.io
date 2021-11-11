@@ -127,11 +127,17 @@ p{
 .spacer{
     height: 50px;
 }
-.tech-container{}
+.tech-container{
+    width: 95%;
+}
 .tech-head{}
 .tech-text{
+    color: white;
     Font-Family: 'Open Sans', Sans-Serif;
-    Font-Size: 25px;
+    Font-Size: 40px;
+    text-align: left;
+    width: 100%;
+    top: 45%;
 }
 
 /* ids */
