@@ -67,10 +67,15 @@ p{
 .abz-container{
     position: relative;
 }
-.contact-container{}
+.contact-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+}
 .contact-link{
-    Font-Family: 'Open Sans', Sans-Serif;
-    Font-Size: 25px;
+    align-items: center;
+    height: auto;
+    width: 15%;
 }
 .background-img{
     overflow: hidden;
@@ -160,30 +165,16 @@ p{
 }
 
 /* ids */
-#abz-img{
-    
+#github{
+    grid-column: 2/2;
 }
-#abz-txt{
-    
+#linked-in{
+    grid-column: 3/3;
 }
 #jyv-img{
     filter: brightness (80%);
-}
-#jyv-txt{
-    
-}
-#rd-img{
- 
-}
-#rd-txt{
-    
-}
-#sf-img{
+} 
 
-}
-#sf-txt{
-   
-}
 /* next steps: 
 - add responsive design to change px offset for picture fade
 - restyle fee time section 
