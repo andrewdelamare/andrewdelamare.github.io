@@ -69,13 +69,13 @@ p{
 }
 .contact-container{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 5% 10% 10% 10% 65%;
     grid-template-rows: auto;
 }
 .contact-link{
     align-items: center;
     height: auto;
-    width: 15%;
+    width: 60%;
 }
 .background-img{
     overflow: hidden;
@@ -165,6 +165,9 @@ p{
 }
 
 /* ids */
+#contact-title{
+    grid-column: 1/6;
+}
 #github{
     grid-column: 2/2;
 }
