@@ -68,14 +68,15 @@ p{
     position: relative;
 }
 .contact-container{
-    display: grid;
+    display: inline-grid;
     grid-template-columns: 5% 10% 10% 10% 65%;
     grid-template-rows: auto;
 }
 .contact-link{
+    justify-items: center;
     align-items: center;
     height: auto;
-    width: 60%;
+    width: 80%;
 }
 .background-img{
     overflow: hidden;
@@ -177,6 +178,28 @@ p{
 #jyv-img{
     filter: brightness (80%);
 } 
+
+/* Media Queries */
+
+@media only screen and (max-width: 480px){
+
+}
+@media only screen and (min-width:
+480px) and (max-width: 768px){
+    
+}
+@media only screen and (min-width:
+768px) and (max-width: 1024px){
+    
+}
+@media only screen and (min-width:
+1024px) and (max-width: 1600px){
+    
+}
+@media only screen and (min-width:
+1600px){
+    
+}
 
 /* next steps: 
 - add responsive design to change px offset for picture fade
