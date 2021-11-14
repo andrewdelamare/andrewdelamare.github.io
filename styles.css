@@ -211,7 +211,7 @@ p{
     .navigation-item{
         Font-Family: 'Work Sans', Sans-Serif;
         Font-Size: 20px;
-        padding-left: 30px;
+        padding-left: 10px;
         float: left;
     }
 }
@@ -219,36 +219,86 @@ p{
 480px) and (max-width: 768px){
     h1{
         Font-Family: 'Work Sans', Sans-Serif;
-        Font-Size: 65px;
+        Font-Size: 35px;
         color:#cbf7edff;
     }
     h2{
         Font-Family: 'Work Sans', Sans-Serif;
-        Font-Size: 45px;
+        Font-Size: 35px;
         color:#cbf7edff;
         margin-left: 25px;
     }
+    .about-me-head{
+        Font-Size: 35px;
+    }
     .about-me-text{
         Font-Family: 'Open Sans', Sans-Serif;
-        Font-Size: 40px;
-    }    
+        Font-Size: 25px;
+    }
+    .background-img{
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        z-index: -1;
+    }
+    .nav-container{
+        margin-left: 25px;
+        width: 100%;
+        padding-right: 40px;
+    }
+    .navigation-items{
+        padding-top: 20px;
+        padding-right: 30px;
+        
+    }
+    .navigation-item{
+        Font-Family: 'Work Sans', Sans-Serif;
+        Font-Size: 25px;
+        padding-left: 10px;
+        float: left;
+    }
 }
 @media only screen and (min-width:
 768px) and (max-width: 1024px){
     h1{
         Font-Family: 'Work Sans', Sans-Serif;
-        Font-Size: 65px;
+        Font-Size: 35px;
         color:#cbf7edff;
     }
     h2{
         Font-Family: 'Work Sans', Sans-Serif;
-        Font-Size: 45px;
+        Font-Size: 35px;
         color:#cbf7edff;
         margin-left: 25px;
     }
+    .about-me-head{
+        Font-Size: 35px;
+    }
     .about-me-text{
         Font-Family: 'Open Sans', Sans-Serif;
-        Font-Size: 40px;
+        Font-Size: 25px;
+    }
+    .background-img{
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        z-index: -1;
+    }
+    .nav-container{
+        margin-left: 25px;
+        width: 100%;
+        margin-right: 30px;
+    }
+    .navigation-items{
+        padding-top: 20px;
+        padding-right: 30px;
+        
+    }
+    .navigation-item{
+        Font-Family: 'Work Sans', Sans-Serif;
+        Font-Size: 30px;
+        padding-left: 10px;
+        float: left;
     }
 }
 @media only screen and (min-width:
