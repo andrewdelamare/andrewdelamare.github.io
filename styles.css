@@ -194,6 +194,20 @@ p{
         Font-Family: 'Open Sans', Sans-Serif;
         Font-Size: 25px;
     }
+    .background-img{
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        z-index: -1;
+    }
+    .nav-container{
+        margin-left: 25px;
+        width: 100%;
+    }
+    .navigation-items{
+        padding-top: 20px;
+        padding-right: 30px;
+    }
     .navigation-item{
         Font-Family: 'Work Sans', Sans-Serif;
         Font-Size: 20px;
