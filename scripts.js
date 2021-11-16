@@ -56,3 +56,4 @@ const handleFadeAnimation = () => {
 window.addEventListener('scroll', () => {
     handleFadeAnimation();
   })
+
