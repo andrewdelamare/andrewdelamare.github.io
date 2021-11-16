@@ -76,6 +76,7 @@ p{
     display: inline-grid;
     grid-template-columns: 5% 10% 10% 10% 65%;
     grid-template-rows: auto;
+    column-gap: 15px;
 }
 .contact-link{
     justify-items: center;
@@ -211,6 +212,12 @@ p{
             width: auto;
             height: 1000px;
             z-index: -1;
+    }
+    .contact-link{
+        justify-items: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
     }
     #rd-img{
         width: auto;
