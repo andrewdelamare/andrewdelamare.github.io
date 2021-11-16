@@ -219,7 +219,7 @@ p{
 480px) and (max-width: 768px){
     h1{
         Font-Family: 'Work Sans', Sans-Serif;
-        Font-Size: 35px;
+        Font-Size: 37px;
         color:#cbf7edff;
     }
     h2{
@@ -262,7 +262,7 @@ p{
 768px) and (max-width: 1024px){
     h1{
         Font-Family: 'Work Sans', Sans-Serif;
-        Font-Size: 35px;
+        Font-Size: 42px;
         color:#cbf7edff;
     }
     h2{
@@ -290,7 +290,7 @@ p{
         margin-right: 30px;
     }
     .navigation-items{
-        padding-top: 20px;
+        padding-top: 25px;
         padding-right: 30px;
         
     }
@@ -305,19 +305,43 @@ p{
 1024px) and (max-width: 1600px){
     h1{
         Font-Family: 'Work Sans', Sans-Serif;
-        Font-Size: 65px;
+        Font-Size: 50px;
         color:#cbf7edff;
     }
     h2{
         Font-Family: 'Work Sans', Sans-Serif;
-        Font-Size: 45px;
+        Font-Size: 35px;
         color:#cbf7edff;
         margin-left: 25px;
     }
+    .about-me-head{
+        Font-Size: 35px;
+    }
     .about-me-text{
         Font-Family: 'Open Sans', Sans-Serif;
-        Font-Size: 40px;
+        Font-Size: 25px;
     }
+    .background-img{
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        z-index: -1;
+    }
+    .nav-container{
+        margin-left: 25px;
+        width: 100%;
+        margin-right: 30px;
+    }
+    .navigation-items{
+        padding-top: 30px;
+        padding-right: 30px;
+        
+    }
+    .navigation-item{
+        Font-Family: 'Work Sans', Sans-Serif;
+        Font-Size: 35px;
+        padding-left: 15px;
+        float: left;
 }
 @media only screen and (min-width:
 1600px){
