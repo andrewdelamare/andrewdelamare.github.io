@@ -197,6 +197,17 @@ p{
         Font-Family: 'Open Sans', Sans-Serif;
         Font-Size: 25px;
     }
+    .background-img{
+        overflow: hidden;
+            width: auto;
+            height: 1000px;
+            z-index: -1;
+    }
+    #rd-img{
+        width: auto;
+        height: 1000px;
+        justify-self: center;
+    }
     .nav-container{
         margin-left: 25px;
         width: 100%;
