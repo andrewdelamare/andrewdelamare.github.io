@@ -24,7 +24,7 @@ Upon completion this project will overwrite the andrewdelamare.github.io page an
 - JavaScript 
 ---
 ## Setup 
-In order to view this project you will need to go to (link tbd...)
+Available at [https://andrewdelamare.github.io](https://andrewdelamare.github.io)
 
 ---
 ## Status 

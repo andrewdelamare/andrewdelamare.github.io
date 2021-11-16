@@ -315,12 +315,16 @@ p{
         color:#cbf7edff;
         margin-left: 25px;
     }
+    body{
+        overflow-x: hidden;
+    }
     .about-me-head{
         Font-Size: 37px;
     }
     .about-me-text{
         Font-Family: 'Open Sans', Sans-Serif;
         Font-Size: 34px;
+        width: 95%;
     }
     
     .nav-container{
