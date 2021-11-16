@@ -196,6 +196,9 @@ p{
         color:#cbf7edff;
         margin-left: 25px;
     }
+    p{
+        margin-left: 12px;
+    }
     .about-me-head{
         Font-Size: 35px;
     }
