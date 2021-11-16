@@ -60,7 +60,7 @@ p{
     Font-Size: 40px;
     position: absolute;
     text-align: center;
-    width: 100%;
+    width: 95%;
     top: 45%;
 }
 .abz-container{
@@ -79,9 +79,9 @@ p{
 }
 .background-img{
     overflow: hidden;
-    width: 100%;
-    height: auto;
-    z-index: -1;
+        width: auto;
+        height: 25%;
+        z-index: -1;
 }
 .footer-text{
     Font-Family: 'Open Sans', Sans-Serif;
@@ -171,6 +171,10 @@ p{
 #jyv-img{
     filter: brightness (80%);
 } 
+#rd-img{
+    width: 100%;
+    height: auto;
+}
 
 /* Media Queries */
 
@@ -192,12 +196,6 @@ p{
     .about-me-text{
         Font-Family: 'Open Sans', Sans-Serif;
         Font-Size: 25px;
-    }
-    .background-img{
-        overflow: hidden;
-        width: 100%;
-        height: auto;
-        z-index: -1;
     }
     .nav-container{
         margin-left: 25px;
@@ -234,12 +232,6 @@ p{
         Font-Family: 'Open Sans', Sans-Serif;
         Font-Size: 25px;
     }
-    .background-img{
-        overflow: hidden;
-        width: 100%;
-        height: auto;
-        z-index: -1;
-    }
     .nav-container{
         margin-left: 25px;
         width: 100%;
@@ -275,14 +267,9 @@ p{
     }
     .about-me-text{
         Font-Family: 'Open Sans', Sans-Serif;
-        Font-Size: 25px;
+        Font-Size: 30px;
     }
-    .background-img{
-        overflow: hidden;
-        width: 100%;
-        height: auto;
-        z-index: -1;
-    }
+    
     .nav-container{
         margin-left: 25px;
         width: 100%;
@@ -299,6 +286,7 @@ p{
         padding-left: 10px;
         float: left;
     }
+   
 }
 @media only screen and (min-width:
 1024px) and (max-width: 1600px){
@@ -320,12 +308,7 @@ p{
         Font-Family: 'Open Sans', Sans-Serif;
         Font-Size: 34px;
     }
-    .background-img{
-        overflow: hidden;
-        width: 100%;
-        height: auto;
-        z-index: -1;
-    }
+    
     .nav-container{
         margin-left: 25px;
         width: 100%;
@@ -361,6 +344,7 @@ p{
         Font-Family: 'Open Sans', Sans-Serif;
         Font-Size: 40px;
     }
+   
 }
 /* js to add:
     flashing down arrow on page load indicating that its a scrollable page? 
