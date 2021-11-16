@@ -28,4 +28,4 @@ In order to view this project you will need to go to (link tbd...)
 
 ---
 ## Status 
-Being built. 
+Complete but will be updated as I learn more and complete more projects 
