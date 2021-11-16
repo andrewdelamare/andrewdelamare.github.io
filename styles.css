@@ -37,8 +37,7 @@ img{
     position: relative;
 
 }
-main{}
-nav{}
+
 p{
     color:#cbf7edff;
     margin-left: 25px;
@@ -310,16 +309,16 @@ p{
     }
     h2{
         Font-Family: 'Work Sans', Sans-Serif;
-        Font-Size: 35px;
+        Font-Size: 37px;
         color:#cbf7edff;
         margin-left: 25px;
     }
     .about-me-head{
-        Font-Size: 35px;
+        Font-Size: 37px;
     }
     .about-me-text{
         Font-Family: 'Open Sans', Sans-Serif;
-        Font-Size: 25px;
+        Font-Size: 34px;
     }
     .background-img{
         overflow: hidden;
@@ -342,6 +341,7 @@ p{
         Font-Size: 35px;
         padding-left: 15px;
         float: left;
+    }
 }
 @media only screen and (min-width:
 1600px){
@@ -362,12 +362,9 @@ p{
         Font-Size: 40px;
     }
 }
-
-/* next steps: 
-- add responsive design to change px offset for picture fade
-- restyle fee time section 
-- start styling technology section */
-
+/* js to add:
+    flashing down arrow on page load indicating that its a scrollable page? 
+*/
 /* Fonts 
 
 Font-Family: 'Work Sans', Sans-Serif;
@@ -399,5 +396,4 @@ js & css animations to add
 - when text items fade in the images blur √
 - when text items are out of view the images slowly become clear √
 - technology icons also buttons that depress sligthly on hover and fully on click
-
 */
