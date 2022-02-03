@@ -219,6 +219,10 @@ p{
         height: auto;
         width: 100%;
     }
+    .tech-image{
+        height: auto;
+        width: 90%;
+    }
     #rd-img{
         width: auto;
         height: 1000px;
@@ -254,6 +258,10 @@ p{
     }
     .about-me-head{
         Font-Size: 35px;
+    }
+    .tech-image{
+        height: auto;
+        width: 75%;
     }
     .about-me-text{
         Font-Family: 'Open Sans', Sans-Serif;
@@ -296,7 +304,10 @@ p{
         Font-Family: 'Open Sans', Sans-Serif;
         Font-Size: 30px;
     }
-    
+    .tech-image{
+        height: auto;
+        width: 65%;
+    } 
     .nav-container{
         margin-left: 25px;
         width: 100%;
